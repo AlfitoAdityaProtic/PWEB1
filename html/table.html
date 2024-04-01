@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-radius: 10px;
+        border-style: inset;
+      }
+      th,
+      td {
+        background-color: burlywood;
+        border-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>A basic HTML table</h2>
+
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+
+    <p>To understand the example better, we have added borders to the table.</p>
+
+    <!-- table cells -->
+    <h2>TD elements define table cells</h2>
+
+    <table style="width: 30%">
+      <tr>
+        <td>Emil</td>
+        <td>Tobias</td>
+        <td>Linus</td>
+      </tr>
+    </table>
+    <p>To understand the example better, we have added borders to the table.</p>
+
+    <!-- table rows -->
+    <h2>TR elements define table rows</h2>
+
+    <table>
+      <tr>
+        <td>Emil</td>
+        <td>Tobias</td>
+        <td>Linus</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>14</td>
+        <td>10</td>
+      </tr>
+    </table>
+    <p>To understand the example better, we have added borders to the table.</p>
+
+    <!-- table headers -->
+    <h2>TH elements define table headers</h2>
+
+    <table style="width: 100%">
+      <tr>
+        <th>Person 1</th>
+        <th>Person 2</th>
+        <th>Person 3</th>
+      </tr>
+      <tr>
+        <td>Emil</td>
+        <td>Tobias</td>
+        <td>Linus</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>14</td>
+        <td>10</td>
+      </tr>
+    </table>
+
+    <p>To understand the example better, we have added borders to the table.</p>
+
+    <!-- colspan -->
+    <h2>Cell that spans two columns</h2>
+    <p>To make a cell span more than one column, use the colspan attribute.</p>
+
+    <table style="width: 100%">
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>57</td>
+      </tr>
+    </table>
+
+    <!-- rowspan -->
+    <h2>Cell that spans two rows</h2>
+    <p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+    <table style="width: 100%">
+      <tr>
+        <th>Name</th>
+        <td>Jill</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>555-1234</td>
+      </tr>
+      <tr>
+        <td>555-8745</td>
+      </tr>
+    </table>
+  </body>
+</html>
