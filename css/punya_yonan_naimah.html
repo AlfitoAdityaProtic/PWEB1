@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid black;
+        }
+        table th, td{
+            border: 1px solid black;
+            width: 8rem;
+            background-color: cyan;
+        }
+        table th{
+            color: chocolate;
+        }
+        table img{
+            width: 2rem;
+        }
+        table  tr:nth-child(even){
+            text-align: right;
+        }
+        table tr td:nth-child(3){
+            text-align: center;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <h2>Challange 1 - CSS</h2>
+
+    <table>
+      <tr>
+        <th>Materi</th>
+        <th>Sub Materi</th>
+        <th>Icon</th>
+      </tr>
+      <tr>
+        <td>Materi 1</td>
+        <td>HTML</td>
+        <td><img src="html1.png" alt="" /></td>
+      </tr>
+      <tr>
+        <td>Materi 2</td>
+        <td>CSS</td>
+        <td><img src="css.png" alt="" /></td>
+      </tr>
+      <tr>
+        <td>Materi 3</td>
+        <td>JavaScript</td>
+        <td><img src="images.png" alt="" /></td>
+      </tr>
+    </table>
+
+    <h4>Keterangan:</h4>
+    <ol>
+      <li>
+        Buatlah selector berjenis class dengan nama <strong>.icon</strong> untuk
+        ,e-resize gambar pada kolom icon
+      </li>
+      <li>Warna background adalah <strong>cyan</strong></li>
+      <li>Warna header tabel adalah <strong>chocolate</strong></li>
+      <li>Tabel Header rata tengah</li>
+      <li>
+        Baris ganjil rata kiri, baris genap rata kanan kecuali pada kolom Icon,
+        gunakan fitur <strong>nth-child</strong>
+      </li>
+    </ol>
+  </body>
+  <!-- harus belajar nth-child -->
+</html>
