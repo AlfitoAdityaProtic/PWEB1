@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challange JS</title>
+    <style>
+      body {
+        width: 100%;
+        font-family: Arial;
+      }
+      h1 {
+        margin: auto;
+        width: fit-content;
+        margin-bottom: 50px;
+      }
+      table {
+        margin: auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 1px solid black;
+      }
+      th {
+        background-color: lightgray;
+        padding-inline: 100px;
+        padding-block: 10px;
+      }
+      tr {
+        padding-inline: 100px;
+        padding-block: 10px;
+      }
+      tr:nth-child(even) {
+        background-color: lightgray;
+      }
+      th:hover {
+        background-color: gray;
+      }
+      tr:hover {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript Arithmetic</h1>
+    <table>
+      <tr>
+        <th>Variabel</th>
+        <th>Nilai</th>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td id="a">5</td>
+      </tr>
+      <tr>
+        <td>b</td>
+        <td id="b">2</td>
+      </tr>
+      <tr>
+        <td>c</td>
+        <td id="c">1</td>
+      </tr>
+      <tr>
+        <td>Hasil</td>
+        <td
+          id="hasil"
+          onmouseover="tampilHasil()"
+          onmouseleave="hapusHasil()"
+        ></td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <center>
+      <button onclick="tombol()">Ubah Nilai</button>
+    </center>
+
+    <script>
+      function hitung(a, b, c) {
+        return a + b - c;
+      }
+
+      function tampilHasil() {
+        let a = parseInt(document.getElementById("a").innerHTML);
+        let b = parseInt(document.getElementById("b").innerHTML);
+        let c = parseInt(document.getElementById("c").innerHTML);
+
+        let hasil = hitung(a, b, c);
+        document.getElementById("hasil").innerHTML = hasil;
+      }
+
+      function hapusHasil() {
+        document.getElementById("hasil").innerHTML = "";
+      }
+
+      function tombol() {
+        let ubahNilai = prompt("change your value brow");
+      }
+    </script>
+  </body>
+</html>
