@@ -117,5 +117,5 @@ disini saya akan menampilkan beberapa contoh dari penggunaan HTML yang sering di
 untuk penggunaan dom sendiri hampir semua contoh js yang saya cantumkan menggunakan dom sebagai penyelesaian masalahnya, jika ingin tau lebih detail mengenai dom di halaman github saya, disarankan membuka folder bernama Javascript atau bisa juga membuka file challange yang sudah saya lampirkan di atas.<br><br><hr>
 
    
-      <center>-----Demikian Laporan Tugas 1 Praktikum WEB 1 yang di ampu oleh Bapak Abdau, Terima Kasih dan Semoga Repositori ini bisa bermanfaat untuk para pembaca. Terima Kasih-----</center>
+      -----Demikian Laporan Tugas 1 Praktikum WEB 1 yang di ampu oleh Bapak Abdau, Terima Kasih dan Semoga Repositori ini bisa bermanfaat untuk para pembaca. Terima Kasih-----
    
