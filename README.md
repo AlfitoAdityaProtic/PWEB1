@@ -65,13 +65,57 @@ disini saya akan menampilkan beberapa contoh dari penggunaan HTML yang sering di
    b. Box Model<br>
       Dalam CSS, istilah "Box Model" digunakan ketika berbicara tentang desain dan tata letak. Box Model CSS pada dasarnya adalah sebuah kotak yang membungkus               setiap elemen HTML. Terdiri dari: konten, padding, batas dan margin.<br>
       ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/9.%20CSS-%20Box%20Model.png?raw=true)<br>
-   c. 
-      
+   c. Borders<br>
+      Properti borders CSS memungkinkan Anda menentukan gaya, lebar, dan warna batas elemen.
+      Properti border-style menentukan jenis batas yang akan ditampilkan.
+      Nilai-nilai berikut diperbolehkan:
+      - dotted Mendefinisikan batas titik-titik
+      - dashed Mendefinisikan batas putus-putus
+      - solid Mendefinisikan batas yang solid
+      - double Mendefinisikan perbatasan ganda
+      - groove Mendefinisikan batas beralur 3D. Efeknya bergantung pada nilai warna batas
+      - ridge Mendefinisikan batas bergerigi 3D. Efeknya bergantung pada nilai warna batas
+      - inset Mendefinisikan batas sisipan 3D. Efeknya bergantung pada nilai warna batas
+      - outset Mendefinisikan batas awal 3D. Efeknya bergantung pada nilai warna batas
+      - none Tidak mendefinisikan batas
+      - hidden Mendefinisikan perbatasan tersembunyi<br>
+      Properti border-style dapat memiliki satu hingga empat nilai (untuk batas atas, batas kanan, batas bawah, dan batas kiri).<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/10.%20CSS-Borders.png?raw=true)<br><br>
+   d. Transition<br>
+      Transisi CSS memungkinkan Anda mengubah nilai properti dengan lancar, selama durasi tertentu.
+      Arahkan mouse ke elemen di bawah ini untuk melihat efek transisi CSS.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/11.%20Transition.png?raw=true)<br><br>
+   e. Text Transform<br>
+      Properti ini text-transform digunakan untuk menentukan huruf besar dan kecil dalam sebuah teks.
+      Ini dapat digunakan untuk mengubah semuanya menjadi huruf besar atau kecil, atau menggunakan huruf besar pada huruf pertama setiap kata.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/12.%20CSS-%20Text%20transform.png?raw=true)<br><br>
+   f. Text-Indent<br>
+      Properti text-indent menentukan indentasi baris pertama dalam blok teks.
+      Catatan: Nilai negatif diperbolehkan. Baris pertama akan menjorok ke kiri jika nilainya negatif.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/13.%20Text-Indent.png?raw=true)<br><br><hr>
+3. JavaScript<br>
+   a. Function <br>
+      Ketika JavaScript mencapai sebuah returnpernyataan, fungsi tersebut akan berhenti dijalankan.
+      Jika fungsi dipanggil dari sebuah pernyataan, JavaScript akan "kembali" untuk mengeksekusi kode setelah pernyataan yang dipanggil.
+      Fungsi sering kali menghitung nilai kembalian . Nilai yang dikembalikan "dikembalikan" ke "pemanggil".
+      contoh dibawah ini menggunakan function yang bernama myfunction() dan melakukan penghitungan di dalam function tersebut sehingga menghasilkan output bernilai         12. untuk lebih detailnya disarankan membuka modul bernama js-function.html pada folder Javascript.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/14.%20JS-%20Function.png?raw=true)<br><br>
+   b. Aritmatika <br>
+      Operator aritmatika melakukan aritmatika pada bilangan (literal atau variabel). disini saya hanya mengambil contoh dari w3schools.com yang mana dalam contoh          aritmatika nya bertuliskan (100+50)*3 pada tag script javascript yang nanti disambungkan ke id dari html sehingga menghasilkan output sebesar 450 di layar            browser.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/15.%20JS-Aritmatika.png?raw=true)<br><br>
+   c. Alert<br>
+      Metode alert() menampilkan kotak peringatan dengan pesan dan tombol OK.
+      Metode alert() digunakan ketika kita ingin informasi sampai ke pengguna.
+      Kotak peringatan mengalihkan fokus dari jendela saat ini, dan memaksa pengguna untuk membaca pesan.
+      Jangan terlalu sering menggunakan metode ini. Ini mencegah pengguna mengakses bagian lain halaman hingga kotak peringatan ditutup.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/16.%20JS-Alert.png?raw=true)<br><br>
+   d. Add Event Listener<br>
+      Metode addEventListener() melampirkan event handler ke dokumen. dimana saat kita meng klik sebuah button atau elemen yang sudah dihubungkan ke sebuah function        maka akan menghasilkan sesuatu yang sesuai dengan isi dari function yang sudah kita hubungkan. untuk detailnya disarankan membuka code yang sudah saya buka           berjudul js-EventListener.html pada folder Javascript.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/17.%20JS-EventListener.png?raw=true)<br>
+      untuk contoh di atas menggunakan addeventlistener dimana jika kita meng klik button try it maka akan menjalankan function bernama displayDate() yang berisikan        tanggal pada hari ini beserta jamnya.<br><br>
 
+untuk penggunaan dom sendiri hampir semua contoh js yang saya cantumkan menggunakan dom sebagai penyelesaian masalahnya, jika ingin tau lebih detail mengenai dom di halaman github saya, disarankan membuka folder bernama Javascript atau bisa juga membuka file challange yang sudah saya lampirkan di atas.<br><br><hr>
 
-
-
-      
    
+      <center>-----Demikian Laporan Tugas 1 Praktikum WEB 1 yang di ampu oleh Bapak Abdau, Terima Kasih dan Semoga Repositori ini bisa bermanfaat untuk para pembaca. Terima Kasih-----</center>
    
-      
