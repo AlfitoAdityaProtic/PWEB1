@@ -23,8 +23,55 @@ disini saya akan menampilkan beberapa contoh dari penggunaan HTML yang sering di
       dalam menulis teks tentu kita terkadang ingin membuatnya menjadi tebal, miring atau ada garis bawahnya, nah di html  pun menyediakan fitur tersebut juga, bisa         dilihat dengan hasil dibawah ini yang dituliskan menggunakan code html :<br>
       ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/3.%20teks%20formatting.png?raw=true)<br>
       teks formatting ada banyak, contoh disini sangat lengkap untuk bisa diketahui oleh teman-teman sekalian, diatas menggunakan tag bold, italic, strong (sama             seperti bold hanya bedanya strong itu untuk menekankan bahwa tulisan itu penting), small, mark (menandai sebuah kata dengan memberikan background berwarna       
-      kuning), insert, delete, subscripted (membuat tulisan menjadi kecil di bawah), superscripted (membuat tulisan kecil menjadi kecil di atas seperti bilangan             berpangkat).
-   d. 
+      kuning), insert, delete, subscripted (membuat tulisan menjadi kecil di bawah), superscripted (membuat tulisan kecil menjadi kecil di atas seperti bilangan             berpangkat).<br><br>
+   d. Quotation<br>
+      Dalam bab ini kita akan membahas elemen blockquote, q, abbr, address, cite, dan bdo pada HTML.<br>
+      - blockquote mendefinisikan bagian yang dikutip dari sumber lain. Browser biasanya membuat indentasi blockquote elemen.
+      - q sendiri mendefinisikan kutipan singkat. Browser biasanya menyisipkan tanda kutip di sekitar kata yang ingin di kutip.
+      - abbr mendefinisikan singkatan atau akronim, seperti "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+      - address mendefinisikan informasi kontak penulis/pemilik dokumen atau artikel. biasanya browser akan otomatis menampilkan teks dalam <i>huruf miring</i>.
+      - cite mendefinisikan judul suatu karya kreatif (misalnya buku, puisi, lagu, film, lukisan, patung, dll.). Teks dalam cite elemen biasanya ditampilkan dalam             huruf miring.
+      - bdo adalah singkatan dari Bi-Directional Override. Tag HTML bdo digunakan untuk mengganti arah teks.<br>
+         ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/4.%20quotation.png?raw=true)<br><br>
+   e. Table <br>
+      <b>Sel Tabel</b><br>
+      Tabel dalam HTML terdiri dari sel-sel tabel di dalam baris dan kolom.
+      Tabel HTML memungkinkan pengembang web untuk mengatur data ke dalam baris dan kolom.
+      Setiap sel tabel ditentukan oleh tag td.
+      Segala sesuatu di antara tag td merupakan konten sel tabel.<br>
+      <b>Baris Tabel</b><br>
+      Setiap baris tabel dimulai dengan tag tr.
+      <b>Header Tabel</b><br>
+      Terkadang Anda ingin sel Anda menjadi sel header tabel. Dalam kasus tersebut, gunakan tag th alih-alih tag td.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/5.%20Table.png?raw=true).<br><br>
+   f. List<br>
+      Daftar HTML memungkinkan pengembang web mengelompokkan sekumpulan item terkait dalam daftar.
+      <b>Unorder list</b><br>
+      Daftar tidak berurutan dimulai dengan tag ul. Setiap item daftar dimulai dengan tag li.
+      Item daftar akan ditandai dengan poin (lingkaran hitam kecil) secara default.
+      <b>Order List</b><br>
+      Daftar yang diurutkan dimulai dengan tag ol. Setiap item daftar dimulai dengan tag li.
+      Item daftar akan ditandai dengan angka secara default.
+      di order list sendiri tidak hanya angka, melainkan bisa bentuk A, a, I atau i. semuanya bisa di setting menggunakan type lalu masukan tipe yang ingin kita             gunakan. untuk penerapannya bisa dilihat di code HTML saya di folder HTML dengan nama list.html<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/6.%20list.png?raw=true)<br><br>
+   g. Link <br>
+      Tautan HTML adalah hyperlink. Anda dapat mengeklik tautan dan melompat ke dokumen lain. Saat Anda menggerakkan mouse ke atas link, panah mouse akan berubah            menjadi tangan kecil. Atribut yang paling penting dari suatu tag a adalah href atribut, yang menunjukkan tujuan tautan. Teks tautan adalah bagian yang akan            terlihat oleh pembaca. Mengklik teks tautan, akan mengirim pembaca ke alamat URL yang ditentukan.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/7.%20link.png?raw=true)<br><br><hr>
+2. CSS<br>
+   CSS adalah bahasa yang kami gunakan untuk menata gaya dokumen HTML. CSS menjelaskan bagaimana elemen HTML harus ditampilkan.<br>
+   a. Table Hover<br>
+      Gunakan :hover pemilih pada tr untuk menyorot baris tabel dengan mengarahkan mouse, jadi saat kita mengarahkan mouse ke salah 1 baris di tabel maka baris              tersebut akan memberikan efek yang sudah diberikan, contohnya pada gambar dibawah ini baris akan menyala berwarna chocolate jika di sorot oleh mouse.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/8.%20CSS-TAble%20Hover.png?raw=true)<br>
+   b. Box Model<br>
+      Dalam CSS, istilah "Box Model" digunakan ketika berbicara tentang desain dan tata letak. Box Model CSS pada dasarnya adalah sebuah kotak yang membungkus               setiap elemen HTML. Terdiri dari: konten, padding, batas dan margin.<br>
+      ![alt text](https://github.com/AlfitoAdityaProtic/PWEB1/blob/main/image/9.%20CSS-%20Box%20Model.png?raw=true)<br>
+   c. 
+      
+
+
+
+
+      
    
    
       
