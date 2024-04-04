@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
+      tr,
+      th,
+      td {
+        padding-inline: 50px;
+        padding-block: 10px;
+      }
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th {
+        background-color: cyan;
+      }
+      tr:nth-child(odd) {
+        background-color: darkorange;
+      }
+      th:hover {
+        background-color: lightgray;
+      }
+      tr:hover {
+        background-color: lightgray;
+        font-size: 30px;
+        transition: 0.3s ease;
+      }
+      img {
+        width: 200px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Belajar JavaScript</h1>
+      <table>
+        <tr>
+          <th>Nama</th>
+          <th>Nilai</th>
+          <th rowspan="6">
+            <img
+              id="gambarHTML"
+              src="https://www.techfor.id/wp-content/uploads/2019/12/html.png"
+              alt="gambarHTML"
+            />
+          </th>
+        </tr>
+        <tr>
+          <td>Alfito</td>
+          <td id="a">90</td>
+        </tr>
+        <tr>
+          <td>Mikel</td>
+          <td id="b">94</td>
+        </tr>
+        <tr>
+          <td>Popol</td>
+          <td id="c">93</td>
+        </tr>
+        <tr>
+          <td>Shiroo</td>
+          <td id="d">95</td>
+        </tr>
+        <tr>
+          <th>Hasil</th>
+          <td id="Hasil"></td>
+        </tr>
+      </table>
+      <br /><br />
+
+      <button onclick="tampilHasil()">Hitung!</button>
+    </div>
+
+    <script>
+      function hitung(a, b, c, d) {
+        return a + b - c + d;
+      }
+      function tampilHasil() {
+        let a = parseInt(document.getElementById("a").innerHTML);
+        let b = parseInt(document.getElementById("b").innerHTML);
+        let c = parseInt(document.getElementById("c").innerHTML);
+        let d = parseInt(document.getElementById("d").innerHTML);
+
+        let hasil = hitung(a, b, c, d);
+        document.getElementById("Hasil").innerHTML = hasil;
+        alert(hasil);
+      }
+
+      function hapus() {
+        document.getElementById("Hasil").innerHTML = "";
+      }
+    </script>
+  </body>
+</html>
